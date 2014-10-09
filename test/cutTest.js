@@ -1,3 +1,11 @@
+// Code coverage through blanket
+
+require('blanket')({
+    pattern: function (filename) {
+        return !/node_modules/.test(filename);
+    }
+});
+
 // Test cases
 
 var expect = require("chai").expect;
