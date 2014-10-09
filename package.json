@@ -1,0 +1,10 @@
+{
+    "name": "CutTheSticks",
+    "description": "Sample program to use Mocha and chai",
+    "author": "Team <team@uwo.ca>",
+    "dependencies": {
+        "chai": "*",
+        "blanket": "*"
+    }
+
+}
